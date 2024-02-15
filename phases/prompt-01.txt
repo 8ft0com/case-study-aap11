@@ -1,0 +1,3 @@
+Perform an Comprehensive Regulatory Analysis on Australian Privacy Principles - Chapter 11: APP 11 Security of personal information
+
+In the context of adopting a policy-as-code approach, the primary step involves a detailed analysis of the regulatory environment to identify areas where compliance requirements can be translated into technical rules for automation. This process is crucial for organisations, especially in sectors like fintech in Australia, where regulatory compliance is both complex and mandatory. The goal is to focus on policy domains that offer clear pathways for codification into technical controls and automated monitoring systems.
