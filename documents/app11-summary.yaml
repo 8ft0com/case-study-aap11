@@ -1,0 +1,52 @@
+Chapter_11:
+  Title: "APP 11 Security of personal information"
+  Key_points:
+    - "An APP entity must take reasonable steps to protect personal information it holds from misuse, interference, and loss, as well as unauthorised access, modification, or disclosure."
+    - "Where an APP entity no longer needs personal information for any purpose for which the information may be used or disclosed under the APPs, the entity must take reasonable steps to destroy the information or ensure that it is de-identified. This requirement applies except where: the personal information is part of a Commonwealth record, or the APP entity is required by law or a court/tribunal order to retain the personal information."
+    - "Many of the issues discussed in this Chapter are discussed in more detail in the Office of the Australian Information Commissioner’s (OAIC) Guide to Securing Personal Information."
+  APP_11_Content:
+    What_does_APP_11_say:
+      - "APP 11 requires an APP entity to take active measures to ensure the security of personal information it holds, and to actively consider whether it is permitted to retain personal information."
+      - "An APP entity that holds personal information must take reasonable steps to protect the information from misuse, interference and loss, as well as unauthorised access, modification or disclosure (APP 11.1)."
+      - "An APP entity must take reasonable steps to destroy or de-identify the personal information it holds once the personal information is no longer needed for any purpose for which the personal information may be used or disclosed under the APPs. This requirement does not apply where the personal information is contained in a Commonwealth record or where the entity is required by law or a court/tribunal order to retain the personal information (APP 11.2)."
+    Holds:
+      Definition: "APP 11 only applies to personal information that an APP entity holds. An entity holds personal information ‘if the entity has possession or control of a record that contains the personal information’ (s 6(1))."
+      Extension: "The term ‘holds’ extends beyond physical possession of a record to include a record that an APP entity has the right or power to deal with. For example, an entity that outsources the storage of personal information to a third party, but retains the right to deal with that information, including to access and amend it, holds that personal information."
+      Discussion: "The term ‘holds’ is discussed in more detail in Chapter B (Key concepts)."
+    Taking_reasonable_steps:
+      Circumstances: 
+        - "The nature of the APP entity. Relevant considerations include an APP entity’s size, resources, the complexity of its operations and its business model."
+        - "The amount and sensitivity of the personal information held."
+        - "The possible adverse consequences for an individual in the case of a breach."
+        - "The practical implications of implementing the security measure, including time and cost involved."
+        - "Whether a security measure is in itself privacy invasive."
+      Steps_to_include:
+        - "Governance, culture and training"
+        - "Internal practices, procedures and systems"
+        - "ICT security"
+        - "Access security"
+        - "Third party providers (including cloud computing)"
+        - "Data breaches"
+        - "Physical security"
+        - "Destruction and de-identification"
+        - "Standards."
+      Information_lifecycle: "As part of taking reasonable steps to protect personal information (also known as ‘personal information security’) an APP entity should consider how it will protect personal information at all stages of the information lifecycle."
+    Security_considerations:
+      Terms_not_defined: "The six terms listed in APP 11, ‘misuse’, ‘interference’, ‘loss’, ‘unauthorised access’, ‘unauthorised modification’ and ‘unauthorised disclosure’, are not defined in the Privacy Act."
+      Misuse: 
+        Definition: "Personal information is misused if it is used by an APP entity for a purpose that is not permitted by the Privacy Act."
+      Interference: 
+        Definition: "‘Interference’ with personal information occurs where there is an attack on personal information that an APP entity holds that interferes with the personal information but does not necessarily modify its content."
+      Loss: 
+        Definition: "‘Loss’ of personal information covers the accidental or inadvertent loss of personal information held by an APP entity."
+      Unauthorised_access: 
+        Definition: "‘Unauthorised access’ of personal information occurs when personal information that an APP entity holds is accessed by someone who is not permitted to do so."
+      Unauthorised_modification: 
+        Definition: "‘Unauthorised modification’ of personal information occurs when personal information that an APP entity holds is altered by someone who is not permitted to do so."
+      Unauthorised_disclosure: 
+        Definition: "‘Unauthorised disclosure’ occurs when an APP entity makes personal information accessible or visible to others outside the entity, and releases that information from its effective control in a way that is not permitted by the Privacy Act."
+    Destroying_or_de_identifying_personal_information:
+      Requirement: "An APP entity must take reasonable steps to destroy personal information or ensure it is de‑identified if it no longer needs the information for any purpose for which it may be used or disclosed under the APPs (APP 11.2)."
+      Agency_vs_organisation: 
+        - "If the personal information is contained in a Commonwealth record, the agency is not required to destroy or de-identify the personal information under APP 11.2."
+        - "Where an organisation ‘holds’ personal information it no longer needs for a purpose that is permitted under the APPs, it must ensure that it takes reasonable steps to destroy or de‑identify the personal information."
