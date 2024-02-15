@@ -1,54 +1,46 @@
+// Define a structured approach to adopt a policy-as-code framework for regulatory compliance
 
+// Phase 1: Comprehensive Regulatory Analysis
+BEGIN PHASE 1
+  INPUT: Attached document: app11.md
+  TASK: Analyse the document to identify policy domains for suitability for policy-as-code
+  OUTPUT: 
+    - Create a markdown document named 'policy-domains.md'
+    - List priority policy domains in 'policy-domains.md'
+    - provied details as to why the policy domain was chosen
+END PHASE 1
 
-# phase 1
+// Phase 2: Formulating Compliance Mandates
+BEGIN PHASE 2
+  CREATE FOLDER: 'mandates'
+  FOR EACH policy_domain IN 'policy-domains.md'
+    TASK: 
+      - Formulate compliance mandates for each policy_domain
+      - Translate regulatory requirements into clear, actionable mandates
+      - Include specifics on what needs to be done, how, and who is responsible
+    OUTPUT:
+      - In 'mandates' folder, create a sub-folder named after the policy_domain
+      - In each policy_domain sub-folder, create markdown documents for each compliance mandate
+END PHASE 2
 
-task: 
-    - Perform an Comprehensive Regulatory Analysis on the attached document
-      - In the context of adopting a policy-as-code approach, the primary step involves a detailed analysis of the regulatory environment to identify areas where compliance requirements can be translated into technical rules for automation.
-      - This process is crucial for organisations, especially in sectors like fintech in Australia, where regulatory compliance is both complex and mandatory.
-      - The goal is to focus on policy domains that offer clear pathways for codification into technical controls and automated monitoring systems.
+// Phase 3: Drafting Policies for Compliance Mandates
+BEGIN PHASE 3
+  INPUT: Template.md
+  CREATE FOLDER: 'policies'
+  FOR EACH policy_domain IN 'mandates' folder
+    FOR EACH compliance_mandate IN policy_domain folder
+      TASK: create a draft policy for the compliance_mandate using the supplied tyemplate file
+      OUTPUT:
+        - In 'policies' folder, create a sub-folder for policy_domain
+        - Within each policy_domain sub-folder, create further sub-folders for each compliance_mandate
+        - In each compliance_mandate sub-folder, create a markdown document named 'policy.md' detailing the policy for the mandate
+END PHASE 3
 
-output:
-    - list of priority policy domains
-    - markdown format
-    - save as policy-domains.md
+// Final: Compilation and Distribution
+BEGIN FINAL
+  TASK: Zip up all created files and folders
+  OUTPUT: Provide a link to download the zip file containing all documents and folders
+END FINAL
 
-# phase 2
-
-task:
-    - create a folder called mandates
-    - for each policy-domain in policy-domains.md
-      - Formulate Compliance Mandates for each policy-domain
-        - Following the comprehensive regulatory analysis, the next pivotal step in implementing a policy-as-code framework is the distillation of these regulatory requirements into clear, actionable compliance mandates. 
-        - This process involves translating the broad and often complex language of regulations into discrete, specific mandates that directly inform the creation of technical controls and configurations. 
-        - The aim is to produce a set of actionable, codifiable rules that can be automated within technology environments.
-      - Each mandate should clearly state what needs to be done, how it should be done, and who is responsible. 
-        - This clarity is crucial for the next stage, where these mandates are codified into policy rules.
-
-output:
-    - in the mandates folder create a sub-folder for the policy-domain
-    - a document for each Compliance Mandates saved in the relevant policy-domain folder
-    - save in markdown format 
-
-
-# phase 3
-
-task:
-    - create a folder called policies
-    - in the policies folder create a subfolder for each policy-domain and in each policy-domain folder further subfolders for each compliance-mandate
-    - for each compliance-mandate identified in phase 2
-      - draft a policy for that compliance-mandate
-
-
-output:
-    - a document for each policy saved in the relevant policy-domain/compliance-mandate folder
-    - save in markdown format 
-
-
-# final
-
-task:
-    - zip up all the files
-
-output:
-    - link to download the zip file
+NOTE
+  - do not stop until you have completed creating all policies for each compliance mandate

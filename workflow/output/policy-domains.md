@@ -1,19 +1,14 @@
 
-# Priority Policy Domains for Policy-as-Code Approach
+# Priority Policy Domains for Policy-as-Code Framework
 
-Given the detailed analysis of APP 11 regarding the security of personal information, the following priority policy domains have been identified for adopting a policy-as-code approach, particularly for fintech organisations in Australia:
+## 1. Information Security Management
+This domain is essential for ensuring the comprehensive protection of personal information across an organization's operations. It includes governance, culture, internal practices, ICT security, access security, and the management of third-party providers, making it a foundational element of regulatory compliance in data protection.
 
-## Data Protection
-- **Objective**: Safeguard personal information from unauthorized access, misuse, and loss.
+## 2. Data Breach Management
+Given the critical impact of data breaches on privacy and organizational reputation, this domain focuses on automating breach detection and response. It involves specific guidance on preventing data breaches and the procedural steps to follow when a breach occurs, enhancing an organization's ability to respond swiftly and effectively.
 
-## Data Destruction and De-identification
-- **Objective**: Ensure personal information is properly destroyed or de-identified when no longer needed, adhering to specific compliance scenarios.
+## 3. De-identification and Destruction of Personal Information
+This domain addresses the requirements for appropriately handling personal information at the end of its lifecycle, including de-identification and destruction. Automating these processes ensures compliance with regulations on how personal information should be managed when it is no longer needed, safeguarding against unauthorized access or misuse.
 
-## Information Security Governance
-- **Objective**: Establish comprehensive governance, internal practices, procedures, and systems for information security.
-
-## Third-Party Management
-- **Objective**: Manage risks associated with third-party service providers, including cloud computing, to ensure adherence to APP 11 requirements.
-
-## Incident Management and Response
-- **Objective**: Prepare for and respond to data breaches in alignment with APP 11 stipulations, employing a structured approach.
+## 4. Handling of Sensitive Information
+Sensitive information requires additional protections due to its nature. This domain focuses on the automated enforcement of heightened security measures and handling protocols for sensitive data, preventing breaches, and ensuring compliance with stricter regulatory requirements.
