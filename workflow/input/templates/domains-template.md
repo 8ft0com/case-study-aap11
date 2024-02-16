@@ -1,18 +1,20 @@
 # Regulatory Analysis
 
-[introduction]
+[introduction to this document]
 
 ## Overview
 
-[Overview of regulatoins in the document]
+[Overview of the content in the regulations document]
 
 # Key Requirements and Considerations
 
 [List of]:
   - [Key Requirements and Considerations]
     - [title]
-    - [desription]
-
+    - [summary]
+    - [detailed desription]
+    - [rationale]
+  
 
 # Key Policy Domains
 
@@ -21,7 +23,9 @@
 [List of]:
   - [Key Policy Domains]
     - [title]
-    - [description]
+    - [summary]
+    - [detailed desription]
+    - [rationale]
   
 
 # Conclusion

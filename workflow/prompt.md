@@ -22,12 +22,13 @@ I'm going to set you a multi-phase task. Please pay close attention.
 
 # PHASE 1: Comprehensive Regulatory Analysis
 
-- TASK: 
-  - Conduct a thorough analysis of the attached document to identify key policy domains where compliance requirements can be automated.
-  - focus on policy domains that lend themselves to implementation using policy-as-code
-  - use the domains-template.md file as a document template  
-  - use the domains-example.md file as a document example  
-- GOAL: A list of priority policy domains saved in markdown format as `policy-domains.md`.
+- PROCESS: Conduct a thorough analysis of the attached regulations.md document to identify key policy domains where compliance requirements can be automated.
+  - TASKS: 
+    - focus on policy domains that lend themselves to implementation using policy-as-code
+    - use the domains-template.md file as a document template  
+    - use the domains-example.md file as a document example 
+  
+  - GOAL: A list of priority policy domains saved in markdown format as `policy-domains.md`.
 
 ---
 
@@ -36,17 +37,17 @@ I'm going to set you a multi-phase task. Please pay close attention.
 - PROCESS: For each identified policy domain, create specific compliance mandates that detail what needs to be done, how it should be done, and who is responsible. 
   - This involves translating regulatory requirements into clear, actionable mandates that can inform the creation of technical controls.
   - IMPORTANT: do this for ALL policy domain
-  - Tasks: 
+  - TASKS: 
     - Create a folder called `mandates`.
-    - Within this folder, create a sub-folder for each policy domain.
-    - For each policy requirement, create documents for each compliance mandate in markdown format and save in the correct folder
-    - use the mandate-template.md file as a compliance mandate document template  
-    - use the mandate-example.md file as a compliance mandate document example 
-    - use your data-analysis and code-interpreter capabilities to create the documents as requested. 
-    - create the documents sequentially, one at a time. 
+    - For each policy-domain, create a compliance-mandate document in markdown format and save in the `mandates` folder
+      - use the mandate-template.md file as a compliance-mandate document template  
+      - use the mandate-example.md file as a compliance-mandate document example 
+      - use your data-analysis and code-interpreter capabilities to create the documents as requested. 
+      - create the documents sequentially, one at a time. 
 
-- GOAL: A structured repository of compliance mandates organized by policy domain, ready for technical codification.
+  - GOAL: A comprehensive set of compliance mandates organized by policy domain, ready for technical codification.
 
+  - END: list the files created in this phase
 ---
 
 # PHASE 3: Drafting Policies for Compliance Mandates
@@ -54,22 +55,28 @@ I'm going to set you a multi-phase task. Please pay close attention.
 - PROCESS: Draft a policy for each compliance mandate created. 
   - This involves creating detailed policy documents in accordance for the format in the template
   - IMPORTANT: do this for ALL compliance mandates 
-  - Tasks:
+  - TASKS:
     - Create a folder called `policies`.
-    - Within this folder, create a subfolder for each policy requirement and further subfolders for each compliance mandate.
-    - for each compliance mandate, create documents for each policy in markdown format and save it in the correct folder
-    - use the policy-template.md file as a policy document template  
-    - use the policy-example.md file as a policy document example 
-    - use your data-analysis and code-interpreter capabilities to create the documents as requested. 
-    - create the documents sequentially, one at a time. 
+    - Within this folder, create a subfolder for each policy-domain.
+    - for each compliance-mandate document in the `mandates` folder, extract the list of mandates
+      - for each mandate create a policy document in markdown format and save it in the correct `policies` sub-folder 
+        - use the policy-template.md file as a policy document template  
+        - use the policy-example.md file as a policy document example 
+        - use your data-analysis and code-interpreter capabilities to create the documents as requested. 
+        - create the documents sequentially, one at a time. 
 
-- GOAL: A comprehensive set of policy documents, each tailored to a specific compliance mandate within the identified policy requirement.
+  - GOAL: A structured repository of policy documents, each tailored to a specific compliance mandate within the identified policy requirement.
 
 ---
 
 # PHASE 4: export files
-- TASK: Zip up all created files and folders
-- OUTPUT: Provide a link to download the zip file containing all documents and folders
+
+- PROCESS: export files
+  - TASKS: 
+    - list all files created for the above phases
+    - Zip up all created files and folders
+  
+  - GOAL: Provide a link to download the zip file containing all documents and folders
 
 
 ---
