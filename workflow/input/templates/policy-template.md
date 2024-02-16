@@ -1,6 +1,5 @@
 # Policy Title: [Policy Title]
 
----
 
 # 1. Purpose
 
@@ -8,14 +7,11 @@
 
 # 2. Definitions
 
-- **[Term]**: [Definition].
-- **[Another Term]**: [Definition].
+[numbered list of terms]:
+  - **[Term]**: [Definition]
 
 # 3. Policy Requirements
 
-[list of policy requirements]
-
-## 3.1 [Subsection Title, e.g., Encryption Standards]
-
-- [Requirement or action].
-- [Another requirement or action].
+[numbered list of policy requirements]:
+  - [policy requirements title]
+    - [bullet list of criteria]

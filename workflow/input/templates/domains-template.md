@@ -8,25 +8,16 @@
 
 # Key Requirements and Considerations
 
-[List of]:
-  - [Key Requirements and Considerations]
-    - [title]
-    - [summary]
-    - [detailed desription]
-    - [rationale]
-  
+[numbered List of Key Requirements or Considerations]:
+  - [title]
+  - [summary]
 
 # Key Policy Domains
 
 [preamble]
 
-[List of]:
-  - [Key Policy Domains]
-    - [title]
-    - [summary]
-    - [detailed desription]
-    - [rationale]
-  
+[bullet List of Key Policy Domains]:
+  - [title]: [summary]
 
 # Conclusion
 
